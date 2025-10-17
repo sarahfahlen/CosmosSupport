@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SupportWebApp.Shared")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc2be3530acc0c2011d6cd140c2e9b46d5d1bbb4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e406616ed2e2f77daac8e6ffc108430118983bba")]
 [assembly: System.Reflection.AssemblyProductAttribute("SupportWebApp.Shared")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SupportWebApp.Shared")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

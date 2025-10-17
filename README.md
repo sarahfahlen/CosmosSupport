@@ -5,6 +5,8 @@ Projektets formål er at øve vores færdigheder indenfor cloud computing, mere 
 
 Helt konkret har vi *udarbejdet datamodeller baseret på kundehenvendelser, oprettet en cosmosdatabase, tilføjet objekter hertil og lavet frontend der kan vise og oprette nye henvendelser.*
 
+Vi har brugt kommandoen **dotnet run --project Server** for at starte projektet.
+
 # Oprettelse af databasen til løsningen
 Vi startede med at oprette en ny ressourcegruppe med kommandoen:
 
