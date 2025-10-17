@@ -1,0 +1,38 @@
+# =========================
+# .NET & Blazor Git Ignore
+# =========================
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / Visual Studio files
+.idea/
+.vscode/
+*.userprefs
+
+# Logs and temporary files
+*.log
+*.tlog
+*.tmp
+*.cache
+*.bak
+*.swp
+*.DS_Store
+
+# App configuration (sensitive)
+appsettings.json
+appsettings.Development.json
+
+# Node / npm
+node_modules/
+wwwroot/lib/
