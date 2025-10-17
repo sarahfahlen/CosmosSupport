@@ -1,9 +1,52 @@
 ﻿@page "/"
 
-<PageTitle>Index</PageTitle>
+<div class="text-center mt-5">
+    <h1 class="display-4">Velkommen til IBas Support</h1>
+    <p class="lead">
+        Her kan du nemt oprette og følge supporthenvendelser fra vores kunder.  
+        Systemet gemmer alle henvendelser sikkert i <strong>Azure Cosmos DB</strong>.
+    </p>
+</div>
 
-<h1>Hello, world!</h1>
+<hr class="my-4"/>
 
-Welcome to your new app.
+<div class="row justify-content-center mt-4">
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-body text-center">
+                <h5 class="card-title">Opret ny henvendelse</h5>
+                <p class="card-text">
+                    Har du modtaget en kundehenvendelse?  
+                    Brug formularen til at registrere den direkte i systemet.
+                </p>
+                <NavLink class="btn btn-primary" href="/create-support">
+                    ➕ Opret henvendelse
+                </NavLink>
+            </div>
+        </div>
+    </div>
 
-<SurveyPrompt Title="How is Blazor working for you?" />
+    <div class="col-md-4">
+        <div class="card shadow-sm border-0 mb-4">
+            <div class="card-body text-center">
+                <h5 class="card-title">Se alle henvendelser</h5>
+                <p class="card-text">
+                    Få et samlet overblik over alle indsendte supporthenvendelser fra kunder.  
+                    Du kan se kategori, dato og kontaktoplysninger.
+                </p>
+                <NavLink class="btn btn-success" href="/support-list">
+                    📋 Gå til oversigten
+                </NavLink>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr class="my-5"/>
+
+<div class="text-center text-muted small">
+    <p>
+        IBas Supportplatform er udviklet af Frederik Søgaard Andersen & Sarah Fahlén som en del af <strong>Cloud Computing</strong>-forløbet.  
+        Data gemmes i en <strong>Azure CosmosDB</strong>-database, og applikationen er bygget i <strong>Blazor WebAssembly</strong>.
+    </p>
+</div>

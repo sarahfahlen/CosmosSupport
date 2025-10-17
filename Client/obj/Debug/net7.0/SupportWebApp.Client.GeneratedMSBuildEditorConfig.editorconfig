@@ -28,16 +28,16 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/Pages/FetchData.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmV0Y2hEYXRhLnJhem9y
+[/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/Pages/CreateSupport.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlU3VwcG9ydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/Pages/SupportList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VwcG9ydExpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/Shared/SurveyPrompt.razor]

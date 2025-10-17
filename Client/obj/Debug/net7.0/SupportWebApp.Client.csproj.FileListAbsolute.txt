@@ -36,6 +36,7 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/Microsoft.Win32.Registry.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/mscorlib.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/netstandard.dll
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/Newtonsoft.Json.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/SupportWebApp.Client.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/SupportWebApp.Client.pdb
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/SupportWebApp.Shared.dll
@@ -354,6 +355,7 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/System.Threading.ThreadPool.dll.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/System.ObjectModel.dll.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/System.Buffers.dll.gz
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/System.Reflection.dll.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/System.Xml.XmlDocument.dll.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/wwwroot/_framework/System.IO.FileSystem.Watcher.dll.gz
@@ -432,6 +434,7 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/Microsoft.Extensions.Primitives.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/Microsoft.JSInterop.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/Microsoft.JSInterop.WebAssembly.dll
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/Newtonsoft.Json.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/System.IO.Pipelines.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/Microsoft.CSharp.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/bin/Debug/net7.0/Microsoft.VisualBasic.Core.dll
@@ -617,6 +620,7 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/SupportWebApp.Client.AssemblyInfo.cs
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/SupportWebApp.Client.csproj.CoreCompileInputs.cache
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/SupportWebApp.Client.MvcApplicationPartsAssemblyInfo.cache
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/SupportWebApp.Client.sourcelink.json
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/rjimswa.dswa.cache.json
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/rjsmrazor.dswa.cache.json
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/rjsmcshtml.dswa.cache.json
@@ -649,6 +653,7 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/opnkb4vjn5-9zqro3rcxh.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/om5isgi4u8-dj1yoma6fr.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/fzczbefx3y-pbvpl6c200.gz
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/rkyaq7xo05-m2k37x25ww.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/8b1k71yjrz-7u4f1vnlb7.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/48dfzj84gq-3l6rz51seh.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/w9rop4q2vl-5vwfddg8g5.gz
@@ -825,11 +830,6 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/ci4xszdh6q-tptq2av103.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/mlww0r7k8o-lfu7j35m59.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/b9nanc0mzg-7cxe8oq9xu.gz
-/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/6lpiqnm3n6-9h64ncjvwz.gz
-/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/efapfwo1aj-o3b03h3e2t.gz
-/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/twxb1knfjl-4soj9lem9b.gz
-/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/q4xzxqeyjd-vchljqlkhx.gz
-/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/1iemplzc6g-88j7z7df7k.gz
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/staticwebassets.build.json
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/staticwebassets.build.json.cache
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/staticwebassets.development.json
@@ -839,3 +839,8 @@
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/refint/SupportWebApp.Client.dll
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/SupportWebApp.Client.pdb
 /Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/ref/SupportWebApp.Client.dll
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/6lpiqnm3n6-gkshty0w89.gz
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/efapfwo1aj-eokk3rdp7s.gz
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/twxb1knfjl-9vlec3qni3.gz
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/q4xzxqeyjd-chctrmay8w.gz
+/Users/sarahfahlen/Desktop/Studie/3. sem/Cloud computing/CosmosProjekt/SupportWebApp/Client/obj/Debug/net7.0/compressed/1iemplzc6g-qjm01v4oea.gz

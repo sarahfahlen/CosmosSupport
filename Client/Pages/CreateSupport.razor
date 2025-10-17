@@ -1,0 +1,74 @@
+@page "/create-support"
+@using SupportWebApp.Shared.Modeller
+@using SupportWebApp.Shared.Modeller
+@inject HttpClient Http
+
+<h3>Opret ny supporthenvendelse</h3>
+
+<EditForm Model="@supportItem" OnValidSubmit="HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label>Kategori:</label>
+        <InputText class="form-control" @bind-Value="supportItem.Kategori" />
+        <ValidationMessage For="@(() => supportItem.Kategori)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Beskrivelse:</label>
+        <InputTextArea class="form-control" @bind-Value="supportItem.Beskrivelse" />
+        <ValidationMessage For="@(() => supportItem.Beskrivelse)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Kundenavn:</label>
+        <InputText class="form-control" @bind-Value="supportItem.Kunde.Navn" />
+        <ValidationMessage For="@(() => supportItem.Kunde.Navn)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email:</label>
+        <InputText class="form-control" @bind-Value="supportItem.Kunde.Email" />
+        <ValidationMessage For="@(() => supportItem.Kunde.Email)" />
+    </div>
+
+    <div class="mb-3">
+        <label>Telefon:</label>
+        <InputText class="form-control" @bind-Value="supportItem.Kunde.Telefon" />
+        <ValidationMessage For="@(() => supportItem.Kunde.Telefon)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Opret henvendelse</button>
+</EditForm>
+
+@if (besked is not null)
+{
+    <div class="alert alert-info mt-3">@besked</div>
+}
+
+@code {
+    private SupportHenvendelse supportItem = new();
+    private string? besked;
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/support", supportItem);
+            if (response.IsSuccessStatusCode)
+            {
+                besked = "Supporthenvendelsen blev oprettet succesfuldt ✅";
+                supportItem = new(); // nulstil formularen
+            }
+            else
+            {
+                besked = $"Der opstod en fejl: {response.StatusCode}";
+            }
+        }
+        catch (Exception ex)
+        {
+            besked = $"Fejl: {ex.Message}";
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@page "/support-list"
+@using SupportWebApp.Shared.Modeller
+@inject HttpClient Http
+
+<h3>Supporthenvendelser</h3>
+
+@if (henvendelser == null)
+{
+    <p><em>Indlæser data...</em></p>
+}
+else if (!henvendelser.Any())
+{
+    <p>Der er ingen registrerede supporthenvendelser.</p>
+}
+else
+{
+    <table class="table table-striped mt-3">
+        <thead>
+        <tr>
+            <th>Id</th>
+            <th>Kategori</th>
+            <th>Beskrivelse</th>
+            <th>Dato</th>
+            <th>Kundenavn</th>
+            <th>Email</th>
+            <th>Telefon</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in henvendelser)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Kategori</td>
+                <td>@item.Beskrivelse</td>
+                <td>@item.Dato.ToLocalTime().ToString("dd-MM-yyyy HH:mm")</td>
+                <td>@item.Kunde.Navn</td>
+                <td>@item.Kunde.Email</td>
+                <td>@item.Kunde.Telefon</td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<SupportHenvendelse>? henvendelser;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            henvendelser = await Http.GetFromJsonAsync<List<SupportHenvendelse>>("api/support");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Fejl ved hentning: {ex.Message}");
+            henvendelser = new();
+        }
+    }
+}

@@ -1,10 +1,28 @@
 using Microsoft.AspNetCore.ResponseCompression;
+using SupportWebApp.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllers()
+    .AddJsonOptions(opts =>
+    {
+        opts.JsonSerializerOptions.PropertyNamingPolicy = null;
+        opts.JsonSerializerOptions.DictionaryKeyPolicy = null;
+    });
 
-builder.Services.AddControllersWithViews();
+// Registrér CosmosService som singleton (én instans under hele kørsel)
+builder.Services.AddSingleton(provider =>
+{
+    // læs connectionstring fra appsettings.json
+    var config = builder.Configuration.GetSection("CosmosDb");
+
+    string connectionString = $"AccountEndpoint={config["Account"]};AccountKey={config["Key"]};";
+    string databaseName = config["DatabaseName"]!;
+    string containerName = config["ContainerName"]!;
+
+    return new CosmosService(connectionString, databaseName, containerName);
+});
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
