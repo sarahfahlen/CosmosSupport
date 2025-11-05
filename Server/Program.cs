@@ -18,11 +18,10 @@ builder.Services.AddSingleton(provider =>
 {
     var cosmosConnection = config["COSMOS_CONNECTION_STRING"];
     if (string.IsNullOrWhiteSpace(cosmosConnection))
-        throw new Exception("COSMOS_CONNECTION_STRING mangler i Environment Variables.");
+        throw new Exception("COSMOS_CONNECTION_STRING mangler i Azure Environment Variables.");
 
-    // Hvis du kun har én database og container, skriv dem her:
-    string databaseName = "SupportWebAppDB";     // ← skriv dit DB navn INDEN du trykker klar
-    string containerName = "SupportHenvendelser"; // ← skriv dit container navn INDEN du trykker klar
+    string databaseName = "IBasSupportDB";       
+    string containerName = "ibassupport";        
 
     return new CosmosService(cosmosConnection, databaseName, containerName);
 });
@@ -55,4 +54,5 @@ app.MapControllers();
 app.MapFallbackToFile("index.html");
 
 app.Run();
+
 
