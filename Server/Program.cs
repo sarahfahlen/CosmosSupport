@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.ResponseCompression;
 using SupportWebApp.Server.Services;
-
+ 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
 
@@ -54,5 +54,6 @@ app.MapControllers();
 app.MapFallbackToFile("index.html");
 
 app.Run();
+
 
 
