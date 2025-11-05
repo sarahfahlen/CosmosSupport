@@ -2,6 +2,8 @@ using Microsoft.AspNetCore.ResponseCompression;
 using SupportWebApp.Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+var config = builder.Configuration;
+
 
 // Add services to the container.
 builder.Services.AddControllers()
@@ -14,14 +16,15 @@ builder.Services.AddControllers()
 // Registrér CosmosService som singleton (én instans under hele kørsel)
 builder.Services.AddSingleton(provider =>
 {
-    // læs connectionstring fra appsettings.json
-    var config = builder.Configuration.GetSection("CosmosDb");
+    var cosmosConnection = config["COSMOS_CONNECTION_STRING"];
+    if (string.IsNullOrWhiteSpace(cosmosConnection))
+        throw new Exception("COSMOS_CONNECTION_STRING mangler i Environment Variables.");
 
-    string connectionString = $"AccountEndpoint={config["Account"]};AccountKey={config["Key"]};";
-    string databaseName = config["DatabaseName"]!;
-    string containerName = config["ContainerName"]!;
+    // Hvis du kun har én database og container, skriv dem her:
+    string databaseName = "SupportWebAppDB";     // ← skriv dit DB navn INDEN du trykker klar
+    string containerName = "SupportHenvendelser"; // ← skriv dit container navn INDEN du trykker klar
 
-    return new CosmosService(connectionString, databaseName, containerName);
+    return new CosmosService(cosmosConnection, databaseName, containerName);
 });
 builder.Services.AddRazorPages();
 
@@ -52,3 +55,4 @@ app.MapControllers();
 app.MapFallbackToFile("index.html");
 
 app.Run();
+
